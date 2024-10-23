@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site One Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
@@ -20,6 +20,7 @@
             <ul>
                 <li><a href="#introducao">introdução</a></li>
                 <li><a href="#desenvolvimento-linguistico">desenvolvimento linguistico</a></li>
+                <li><a href="#tópico">Beneficios</a></li>
                 <li><a href="#quiz">Quiz</a></li>
             </ul>
         </nav>
@@ -59,6 +60,74 @@
                 </div>
             </div>
         </section>
+
+        <section class="topico">
+            <h1 style="border-bottom:  2px solid white; font-size: 30px;color: aliceblue;">Beneficios</h1>
+        </section>
+        
+    <section style="background-color: rgb(0, 68, 131);">
+        <div class="carrosel">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                
+    
+    
+                <div class="slide s1">
+                    <div class="cabeca">
+                        <p style="font-size: 25px; padding: 0px; margin-top: 30px;">Trabalho em equipe</p>
+                    </div>
+                    
+                    <img src="assets/imagem.png" style="margin-top: 10px;">
+                    
+                </div>
+                <div class="slide s2">
+                    <div class="cabeca">
+                        <p style="font-size: 25px; padding: 0px;margin-top: 30px;">Interatividade</p>
+                    </div>
+                    <img src="assets/imagem.png" style="margin-top: 10px;">
+                </div>
+                <div class="slide s3">
+                    <div class="cabeca">
+                        <p style="font-size: 25px; padding: 0px;margin-top: 30px;">Coordenação motora</p>
+                    </div>
+                    <img src="assets/img33.png">
+                </div>
+                <div class="slide s4">
+                    <div class="cabeca">
+                        <p style="font-size: 25px; padding: 0px;margin-top: 30px;">Construção de amizades</p>
+                    </div>
+                    <img src="assets/img34.png">
+                </div>
+                
+            </div>
+            <div class="navegacao">
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label> 
+            </div>
+    
+        </div>
+    </section>
+    <section class="secao">
+        <div class="linha" ></div>
+        <h2  style="border-bottom:  2px solid white; font-size: 30px; margin-top: 40px; color: aliceblue;">É possivel se ensinar atraves dos jogos digitais ?</h2>
+        <div class="caixa-frase">
+            <p style="margin: 30px 50px; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Inteiro varius hendrerit lacus, in viverra ex iaculis at. Aliquam ullamcorper sem metus, dapibus bibendum urna pretium ut. Donec nec accumsan ante. Ut et justo purus. Donec varius dictum mi, em sodales felis sodales sit amet. Nullam eu porttitor Tellus. Pellentesque volutpat dui et dolor feugiat, eget gravida lorem rutrum. Praesent et felis justo. Donec auctor nisi non orci mollis tincidunt. Sed quis comodo eros. Fusce ut consequat ante. Nunc faucibus consectetur lectus, ut efficitur tortor aliquam et. Sed id ligula vitae purus finibus aliquet. Etiam sed ligula ac nisl rutrum vestibulum eget et libero. Fusce sempre ante agosto, quis rhoncus nibh aliquet ac.</p>
+            
+        </div>
+        <div class="linha" ></div>
+            <h3 style="border-bottom:  2px solid white; font-size: 30px;margin-top: 40px; color:white">Ferramentas de Gameficação para utilizar em sala de aula</h3>
+            <div class="video">
+                <video controls width="800px" muted autoplay >
+                    <source src="assets/jj.mp4">
+                </video>
+            </div>
+            <div class="linha" ></div>
+    </section>
 
         <section id="quiz">
             <div class="quiz-title">
@@ -108,6 +177,6 @@
 
     <button id="backToTopBtn" title="Voltar ao topo">↑</button>
 
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>
