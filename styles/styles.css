@@ -1053,3 +1053,150 @@ header nav ul li a {
 header nav ul li a:hover {
     color: #e0e0e0;
 }
+   
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e40;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  /* Cartões de Jogos Digitais */
+  .card {
+    background-color: #3a2c61;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .card h2 {
+    color: #d5c4f3;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  /* Seção de Ferramentas de Aprendizado */
+  .learning-tools {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgb(29 27 78);
+  }
+  
+  .learning-tools h1 {
+    font-size: 24px;
+    color: #d5c4f3;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .image-container {
+    display: inline-block;
+    background-color: #3a2c61;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .learning-tools hr {
+    margin-top: 30px;
+    width: 90%;
+    border: 0;
+    border-top: 2px solid #d5c4f3;
+  }
+  
+  /* Seção de Artigo Científico */
+  .scientific-article {
+    text-align: center;
+    background-color: rgb(29 27 78);
+    padding: 40px 20px;
+  }
+  
+  .article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .article-text {
+    background-color: #3a2c61;
+    padding: 20px;
+    border-radius: 12px;
+    color: #fff;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .article-text h1 {
+    font-size: 24px;
+    color: #d5c4f3;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .article-text p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .article-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #5a4da8;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .article-button:hover {
+    background-color: #d5c4f3;
+    color: #3a2c61;
+  }
+  
+  .article-image {
+    max-width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+    .article-image img {
+        width: 100%;
+        height: auto;}
