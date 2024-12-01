@@ -189,7 +189,7 @@ align-items: center;
     align-items: center;
     justify-content: center;
     width: 700px;
-    background-color: #7d0096;
+    background-color: rgb(36, 34, 95);
     border: 2px solid rgb(181, 97, 189);
     border-radius: 20px;
     
@@ -1150,7 +1150,7 @@ body {
   }
   
   .article-text {
-    background-color: #3a2c61;
+    background-color:#5841ce;
     padding: 20px;
     border-radius: 12px;
     color: #fff;
