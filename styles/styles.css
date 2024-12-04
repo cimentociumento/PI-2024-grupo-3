@@ -548,8 +548,6 @@ main {
 }
 
 #ensino{
-    display: flex;
-    
     display: grid;
     grid-template-columns: 400px 100px 450px;
     grid-template-rows: 150px 260px 255px 255px;
