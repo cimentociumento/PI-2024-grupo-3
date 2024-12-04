@@ -1107,14 +1107,14 @@ body {
         /* Estilo da seção do artigo */
 .article-section {
     display: flex;
-    flex-wrap: wrap;
+    
     align-items: center;
     justify-content: center;
     background-color: #5841ce; /* Fundo roxo intermediário */
     border-radius: 10px;
     width: 90%;
     max-width: 900px;
-    padding: 20px;
+    margin: 0 auto; 
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
