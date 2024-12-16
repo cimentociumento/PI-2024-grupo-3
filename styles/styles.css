@@ -53,7 +53,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    
+    font-size: 40px;color: aliceblue;
 }
 .section-topico{
     display: flex;
@@ -105,7 +105,30 @@ nav ul {
     gap: 10px;
     margin: 0;
 }
-
+.h1_importanciajogos{
+    border-bottom:  2px solid white; font-size: 30px;color: aliceblue;
+}
+.h1_beneficios{
+    border-bottom:  2px solid white; font-size: 30px;color: aliceblue;
+}
+.h1_trabalhoequipe{
+    border-bottom:  2px solid white; font-size: 30px;color: aliceblue;
+}
+.h1_interatividade{
+    border-bottom:  2px solid white; font-size: 30px;color: aliceblue;
+}
+.h2_hepossivel{
+    border-bottom:  2px solid white; font-size: 30px; margin-top: 40px; color: aliceblue;
+}
+.p_caixafrase{
+    margin: 30px 50px;
+}
+.img_trabalhoequipe{
+    margin-top: 10px;
+}
+.img_interatividade{
+    margin-top: 10px;
+}
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -138,7 +161,9 @@ h1 {
 p {
     line-height: 1.6; 
 }
-
+.h1_introducao{
+    border-bottom:  2px solid white; font-size: 30px;color: aliceblue;
+}
 
 .topico{
     display: flex;
