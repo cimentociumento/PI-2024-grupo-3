@@ -576,8 +576,7 @@ main {
     display: grid;
     grid-template-columns: 400px 100px 450px;
     grid-template-rows: 150px 260px 255px 255px;
-    background-image: url('img1.png');
-    background-size: contain;
+    background-image: url('../imagens/img1.png');
     
 }
 #s1d1{
@@ -681,35 +680,35 @@ align-content: center;
     justify-content: space-around;
 }
 #d3d1{
-    background-image: url('../imagens/icone1.png');
+    background-image: url('../imagens/lampada.png');
     background-size: cover;
     background-color: transparent;
     margin: 30px;
     border-radius: 70px;
 }
 #d3d2{
-    background-image: url('../imagens/icone2.png');
+    background-image: url('../imagens/treshomi3.png');
     background-size: cover;
     background-color: transparent;
     margin: 30px;
     border-radius: 70px;
 }
 #d3d3{
-    background-image: url('../imagens/icone3.png');
+    background-image: url('../imagens/img72.png');
     background-size: cover;
     background-color: transparent;
     margin: 30px;
     border-radius: 70px;
 }
 #d3d4{
-    background-image: url('../imagens/icone4.png');
+    background-image: url('../imagens/doishomi.png');
     background-size: cover;
     background-color: transparent;
     margin: 30px;
     border-radius: 70px;
 }
 #d3d5{
-   
+
     margin:30px;
     margin-top: 0px;
     margin-bottom: 150px;
@@ -770,28 +769,28 @@ align-content: center;
     border-radius: 20px;
 }
 #d4d1{
-    background-image: url('../imagens/icone5.png');
+    background-image: url('../imagens/lampadahomi4.png');
     background-size: cover;
     background-color: transparent;
     margin: 30px;
-    border-radius: 70px;
+    
 }
 #d4d2{
-    background-image: url('../imagens/icone6.png');
+    background-image: url('../imagens/lupa-removebg-preview.png');
     background-size: cover;
     background-color: transparent;
     margin: 30px;
     border-radius: 70px;
 }
 #d4d3{
-    background-image: url('../imagens/icone7.png');
+    background-image: url('../imagens/nuvem3.png');
     background-size: cover;
     background-color: transparent;
     margin: 30px;
     border-radius: 70px;
 }
 #d4d4{
-    background-image: url('../imagens/icone8.png');
+    background-image: url('../imagens/celebro2.png');
     background-size: cover;
     background-color: transparent;
     margin: 30px;
@@ -1133,7 +1132,7 @@ body {
     
     align-items: center;
     justify-content: center;
-    background-color: #5841ce; /* Fundo roxo intermediário */
+    background-color: #5841ce; /* Fundo roxo  */
     border-radius: 10px;
     width: 90%;
     max-width: 900px;
@@ -1194,5 +1193,5 @@ body {
 }
 
 .article-button button:hover {
-    background-color: #7341BF; /* Tom mais claro no hover */
+    background-color: #7341BF; /* Tom claro no hover */
 }
