@@ -129,18 +129,8 @@ document.addEventListener('DOMContentLoaded', function() {
         requestAnimationFrame(scroll);
     }
 
-    const startQuizBtn = document.getElementById('startQuizBtn');
-
-    startQuizBtn.addEventListener('mouseover', function() {
-        this.style.transform = 'scale(1.05)';
-    });
-
-    startQuizBtn.addEventListener('mouseout', function() {
-        this.style.transform = 'scale(1)';
-    });
-
-    startQuizBtn.addEventListener('click', function() {
-        alert('O quiz será implementado em breve!');
+    document.getElementById('startQuizBtn').addEventListener('click', function() {
+        window.location.href = 'quiz/index.html'; // Redireciona para a página do quiz
     });
 });
 
