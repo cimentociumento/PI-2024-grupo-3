@@ -582,13 +582,16 @@ main {
 
 #s1d1{
 display: grid;
-grid-column: 4/6;
-
+grid-column: 3/7;
+width: 1800;
+font-size: 35px;color: aliceblue;
 justify-items: center;
 align-content: center;
+border-bottom:  2px solid white; 
 }
 #s1d1 h1{
-    font-size: 35px;
+    font-size: 40px;
+   
 }
 #s1d2{
     display: grid;
