@@ -152,6 +152,9 @@ section {
     flex: 1;
     scroll-margin-top: 60px;
 }
+#image { 
+    box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.2);
+}
 
 h1 {
     margin-bottom: 20px;
@@ -728,8 +731,10 @@ footer {
     display: grid;
     grid-template-columns: repeat(9,1fr);
     grid-template-rows: 150px 260px 255px 255px;
-    background-image: url('../imagens/img1.png');    
+    background-image: url('../imagens/img1.png');
 }
+
+
 
 #s1d1{
 display: grid;

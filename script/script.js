@@ -38,13 +38,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Redireciona para a página do quiz
     document.getElementById('startQuizBtn').addEventListener('click', function() {
-        window.location.href = 'quiz/index.html';
+        window.location.href = 'quiz/index2.html';
     });
 });
 
 console.log('Script carregado');
 
-// Botão Scroll to Top com rolagem suave
+// Botão Scroll to Top
 window.onscroll = function() {
     const scrollButton = document.getElementById("scrollToTop");
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -57,7 +57,7 @@ window.onscroll = function() {
 document.getElementById("scrollToTop").onclick = function(e) {
     e.preventDefault();
     
-    const scrollDuration = 1000; // Duração da animação em ms
+    const scrollDuration = 1000;
     const scrollStep = -window.scrollY / (scrollDuration / 15);
     
     const scrollInterval = setInterval(function() {

@@ -268,7 +268,15 @@ function initQuiz() {
             document.getElementById('user-form').reset();
         });
     }
-}
+
+    const backhome = document.getElementById('back-home');
+    if (backhome) {
+        backhome.addEventListener('click', function() {
+            window.location.href = '/Users/Ezequiel/PI-2024-grupo-3/index.html';
+        });
+    }
+    }
+
 
 function startQuiz() {
     // Embaralhar as questões antes de começar
@@ -463,7 +471,7 @@ function showResults() {
     // Criar seção de recomendações
     const recommendationsHTML = `
         <div class="level-info">
-            <h3>Seu nível é: ${level}</h3>
+            <h2 id="lvl">Seu nível é: ${level}</h2>
             <p>Parabéns ${userData.name}! Você completou o teste.</p>
             <p>Maior combo: ${maxCombo} acertos seguidos! 🔥</p>
         </div>
@@ -522,9 +530,6 @@ function showResults() {
 
     // Criar gráficos usando Chart.js
     createCharts(score, quizData.length - score);
-
-    // Adicionar efeito de confete
-    createConfetti();
 }
 
 // Função para criar os gráficos
