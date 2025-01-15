@@ -11,12 +11,12 @@ const quizData = [
         level: "B1"
     },
     {
-        question: "What's the meaning of 'Nevertheless'?",
+        question: "She was very tired, ________, she decided to keep working until she finished the project.",
         options: [
-            "Portanto",
-            "Entretanto",
-            "Ademais",
-            "Contudo"
+            "also",
+            "Therefore",
+            "Moreover",
+            "However"
         ],
         correct: 3,
         level: "B2"
@@ -33,12 +33,12 @@ const quizData = [
         level: "B2"
     },
     {
-        question: "Which sentence uses Present Perfect Continuous correctly?",
+        question: "It’s almost noon and Nancy’s car isn’t in the garage. She __________ to the supermarket to get groceries for lunch.",
         options: [
-            "I am studying English since 2020.",
-            "I have been studying English since 2020.",
-            "I study English since 2020.",
-            "I was studying English since 2020."
+            "should be going",
+            "must have gone",
+            "must go",
+            "should go"
         ],
         correct: 1,
         level: "B2"
@@ -66,12 +66,12 @@ const quizData = [
         level: "B1"
     },
     {
-        question: "Which sentence is grammatically correct?",
+        question: "Adam always follows the rules to stay safe. He would never __.",
         options: [
-            "Neither John or Mary are coming.",
-            "Neither John nor Mary is coming.",
-            "Neither John nor Mary are coming.",
-            "Neither John and Mary is coming."
+            "put himself in perspective",
+            "put himself in jeopardy",
+            "take himself from jeopardy",
+            "take himself from perspective"
         ],
         correct: 1,
         level: "C1"
@@ -110,12 +110,12 @@ const quizData = [
         level: "C1"
     },
     {
-        question: "What's the correct pronunciation of 'schedule' in British English?",
+        question: "If I _______________ you were coming to village, I would have thrown a barbecue party with all our family.",
         options: [
-            "SKED-yool",
-            "SHED-yool",
-            "SKE-dual",
-            "SHE-dual"
+            "would have known",
+            "knew",
+            "would had known",
+            "had known"
         ],
         correct: 1,
         level: "B2"
@@ -132,17 +132,17 @@ const quizData = [
         level: "B1"
     },
     {
-        question: "Which word is NOT a collective noun?",
+        question: "Ana __________ that she needs to improve her performance at work if she wants to get the promotion",
         options: [
-            "flock",
-            "herd",
-            "crowd",
-            "person"
+            "is telling",
+            "has told",
+            "told",
+            "was told"
         ],
         correct: 3,
         level: "B2"
     },
-    {
+    { 
         question: "Complete: 'She's _____ tired to go out tonight.'",
         options: [
             "to",
@@ -198,12 +198,12 @@ const quizData = [
         level: "B2"
     },
     {
-        question: "What's the correct order of adjectives: 'A _____ box'?",
+        question: "Although it is impossible to _________ the future of a business with one hundred percent accuracy, a successful business should be able to estimate its income and costs for the next few months.",
         options: [
-            "wooden old large",
-            "old large wooden",
-            "large old wooden",
-            "wooden large old"
+            "supervise",
+            "possess",
+            "predict",
+            "allow"
         ],
         correct: 2,
         level: "C1"
@@ -272,11 +272,10 @@ function initQuiz() {
     const backhome = document.getElementById('back-home');
     if (backhome) {
         backhome.addEventListener('click', function() {
-            window.location.href = '/Users/Ezequiel/PI-2024-grupo-3/index.html';
+            window.location.href = '../index.html';
         });
     }
-    }
-
+}
 
 function startQuiz() {
     // Embaralhar as questões antes de começar
@@ -348,7 +347,6 @@ function selectOption(isCorrect, selectedIndex) {
         score++;
         currentCombo++;
         
-        // Verificar e atualizar combo imediatamente
         if (currentCombo >= 5) {
             progressBar.classList.add('on-fire');
             gameCharacter.style.opacity = '1';
@@ -528,11 +526,9 @@ function showResults() {
 
     document.getElementById('level-description').innerHTML = recommendationsHTML;
 
-    // Criar gráficos usando Chart.js
     createCharts(score, quizData.length - score);
 }
 
-// Função para criar os gráficos
 function createCharts(correct, incorrect) {
     // Gráfico de Pizza
     new Chart(document.getElementById('pieChart'), {
