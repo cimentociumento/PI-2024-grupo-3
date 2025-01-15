@@ -409,7 +409,7 @@ function showResults() {
     let level = '';
     let recommendations = [];
     if (percentage >= 90) {
-        level = 'C2 - Proficiency';
+        level = 'C2 - upper advanced';
         recommendations = [
             {name: 'Rosetta Stone - Advanced', url: 'https://www.rosettastone.com'},
             {name: 'Cambridge Advanced English Course', url: 'https://www.cambridgeenglish.org'},
@@ -486,7 +486,7 @@ function showResults() {
                 </tr>
                 <tr class="${percentage >= 90 ? 'current-level' : ''}">
                     <td>C2</td>
-                    <td>Proficiency</td>
+                    <td>upper advanced</td>
                     <td>90-100%</td>
                 </tr>
                 <tr class="${percentage >= 80 && percentage < 90 ? 'current-level' : ''}">
